@@ -1,0 +1,90 @@
+                            body{           
+                                    background-color:#f0f0f0;
+                                    color:#fff;
+                                    font-family: Georgia, 'Times New Roman', Times, serif; 
+                                    background-position:   center;   
+                                    background-size: cover;   
+                                    margin:0;
+                                    padding:0;
+
+                  }
+                        
+                  ::placeholder {
+                        color: rgba(255, 255, 255, 0.486);
+                      }
+                          .signin{
+                                                        width: 320px;
+                                height: 460px;
+                                background: rgba(0, 0, 0, 0.5);
+                                color: #fff;
+                                top: 360px;
+                                left: 50%;
+                                position: absolute;
+                                transform: translate(-50%,-50%);
+                                box-sizing: border-box;
+                                padding: 70px 30px;
+                  }      
+                           .avatar{
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                position: absolute;
+                                top: -50px;
+                                left: calc(50% - 50px);
+                            }
+                       
+                                    .signin input {
+                                        width: 100%;
+                                        margin-bottom: 20px;
+                                    }
+                        .signin input[type="text"], input[type="password"] {
+                            border: none;
+                            border-bottom: 1px solid #fff;
+                            background: transparent;
+                            outline: none;
+                            height: 40px;
+                            color: #fff;
+                            font-size: 16px;   }
+                          
+                         .signin p{
+                            margin: 0;
+                            padding: 0;
+                            font-weight: bold;
+                         }
+                      .signin input [type="submit"]{
+                        text-decoration: none;
+                        border: none;
+                        outline: none;
+                        height: 40px;
+                        background: #3d81b1;
+                        color: #fff;
+                        font-size: 18px;
+                        border-radius: 20px;
+                        }       
+                        input [type="submit"]:hover{
+                                text-decoration: none;
+                            cursor: pointer;
+                            background: #39dc79;
+                            color: #000;
+                        }
+                         h2{
+                                color:rgb(112, 99, 99);
+                                text-align: center;
+                                
+                        }
+                        a{
+                                text-decoration: none;
+                                font-size: 14px;
+                                color: #fff;
+                        }
+                        a:hover{
+                                color:skyblue;
+                                text-decoration: none;
+                        }
+                        .container{
+                                
+                                display:flex;
+                                flex-direction: row;
+                                width:100%;
+
+                        }
